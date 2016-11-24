@@ -9,8 +9,8 @@
    <style>
              
       body {
-     background-image:  url("https://cloud.githubusercontent.com/assets/23178208/20593962/313f9f58-b1e9-11e6-95ef-e6b946be33bf.PNG");
-           background-size: 50% 0%;
+     background-image:  url("https://cloud.githubusercontent.com/assets/23178208/20611145/858de568-b259-11e6-8eea-4d3fc4c11b25.jpg");
+           background-size: 100% 100%;
             }
 #section { 
      width:400px; 
