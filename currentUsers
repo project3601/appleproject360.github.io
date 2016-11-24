@@ -12,11 +12,11 @@
             background-color: #cccccc;
             }
 #section { 
-     width:500px; 
+     width:400px; 
     padding:50px;	 
         color: #cccccc; 
  
-     background-color:#333333; 
+     background-color:#cccccc; 
          opacity 
 }
 
