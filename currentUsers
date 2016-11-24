@@ -1,7 +1,7 @@
 <html>
       <title>Registration</title>
       <head>
-                        <h2><font size=18px; color=rgb(422,623,124,567);> <center><div id="myDIV">Make Online Appointment</div> </center> </font></h2>
+                        <h2><font size=18px; color=rgb(422,623,124,567);> <center><div id="myDIV"></div> </center> </font></h2>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
       </head>
@@ -13,8 +13,8 @@
            background-size: 100% 100%;
             }
 #section { 
-     width:400px; 
-    padding:50px;	 
+     width:500px; 
+    padding:5px;	 
         color: #000000
 ; 
  
@@ -24,7 +24,7 @@
 
  div.relative { 
 		position: relative; 
-  	left: 400px;  
+  	left: 500px;  
 	   }
    </style> 
 <body>
@@ -33,6 +33,7 @@
      <div id="section">
     
   <form action="https://formspree.io/ymhm444@gmail.com" method="post"> 
+  	<p4> Make your appointment here </p4>
 	Namee:  <input type="text" name="name"><br> 
 	Phone:  <input type="text" name="number"><br>
 	E-mail: <input type="text" name="email"><br> 
