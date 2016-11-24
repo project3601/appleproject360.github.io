@@ -1,7 +1,7 @@
 <html>
       <title>Registration</title>
       <head>
-                        <h2><font size=18px; color=rgb(422,623,124,567);> <center><div id="myDIV">Make Online Appointments</div> </center> </font></h2>
+                        <h2><font size=18px; color=rgb(422,623,124,567);> <center><div id="myDIV">Make Online Appointment</div> </center> </font></h2>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
       </head>
@@ -10,7 +10,7 @@
              
       body {
      background-image:  url("https://cloud.githubusercontent.com/assets/23178208/20593962/313f9f58-b1e9-11e6-95ef-e6b946be33bf.PNG");
-           background-size: 50% 75%;
+           background-size: 50% 0%;
             }
 #section { 
      width:400px; 
