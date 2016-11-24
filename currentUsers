@@ -12,23 +12,30 @@
             background-color: #cccccc;
             }
 #section { 
-     width:0px; 
+     width:400px; 
     padding:50px;	 
         color: #f2f2f2; 
  
      background-color:#333333; 
          opacity 
 }
- 
+
+ div.relative { 
+		position: relative; 
+  	left: 400px;  
+	   }
    </style> 
 <body>
+			<div class="relative">
+
      <div id="section">
     
   <form action="welcome_get.php" method="get">
 	username: <input type="text" name="name">
 	password: <input type="text" name="password">
       </form>
-</div>      
+</div>   
+</div>
 </body>
 </html>
 
