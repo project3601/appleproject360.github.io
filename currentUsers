@@ -1,7 +1,7 @@
 <html>
       <title>Registration</title>
       <head>
-                        <h2><font size=18px; color=rgb(422,623,124,567);> <center><div id="myDIV">Yusuf Hamid</div> </center> </font></h2>
+                        <h2><font size=18px; color=rgb(422,623,124,567);> <center><div id="myDIV">Register</div> </center> </font></h2>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
       </head>
