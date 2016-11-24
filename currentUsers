@@ -9,12 +9,14 @@
    <style>
              
       body {
-            background-color: #cccccc;
+     background-image:  url("https://cloud.githubusercontent.com/assets/23178208/20593150/142c044a-b1e6-11e6-8fbb-5f20843de247.PNG");
+           background-size: 100% 100%;
             }
 #section { 
      width:400px; 
     padding:50px;	 
-        color: #cccccc; 
+        color: #000000
+; 
  
      background-color:#cccccc; 
          opacity 
