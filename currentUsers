@@ -1,7 +1,7 @@
 <html>
       <title>Registration</title>
       <head>
-                        <h2><font size=18px; color=rgb(422,623,124,567);> <center><div id="myDIV">Welcome</div> </center> </font></h2>
+                        <h4><font size=18px; color=rgb(422,623,124,567);> <center><div id="myDIV">Welcome</div> </center> </font></h4>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
       </head>
@@ -13,7 +13,7 @@
            background-size: 100% 100%;
             }
 #section { 
-     width:400px; 
+     width:500px; 
     padding:5px;	 
         color: #000000
 ; 
@@ -24,7 +24,7 @@
 
  div.relative { 
 		position: relative; 
-  	left: 500px;  
+  	left: 450px;  
 	   }
    </style> 
 <body>
@@ -33,7 +33,7 @@
      <div id="section">
     
   <form action="https://formspree.io/ymhm444@gmail.com" method="post"> 
-  	<p3> Make your appointment here </p3><br>
+  	<p2> Make your appointment here </p2><br>
 	<p4> Please fill out the blank bellow to make your appointment </p4><br>
 
 	Namee:  <input type="text" name="name"><br> 
@@ -43,7 +43,7 @@
 	Appointment date: <input type="text" name="doctor"><br>
 	Appointment time: <input type="text" name="doctor"><br>
 
-	<p5>Please <a href="http://www.facebook.com/" target="_blank">Click Here</a> to see doctor's availablity! </P5>
+	<p5>Please <a href="http://www.facebook.com/" target="_blank">Click Here</a> to see doctor's availablity! </P5><br>
 	If you have any comment <textarea name="comment" rows="5" cols="40"></textarea> 
     <br><br> 
       	<p4> To confirm your appointment please click submit button </p4><br>
