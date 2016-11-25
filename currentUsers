@@ -1,7 +1,7 @@
 <html>
       <title>Registration</title>
       <head>
-                        <h2><font size=18px; color=rgb(422,623,124,567);> <center><div id="myDIV"></div> </center> </font></h2>
+                        <h2><font size=18px; color=rgb(422,623,124,567);> <center><div id="myDIV">Welcome</div> </center> </font></h2>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
       </head>
@@ -13,7 +13,7 @@
            background-size: 100% 100%;
             }
 #section { 
-     width:500px; 
+     width:400px; 
     padding:5px;	 
         color: #000000
 ; 
@@ -33,14 +33,22 @@
      <div id="section">
     
   <form action="https://formspree.io/ymhm444@gmail.com" method="post"> 
-  	<p4> Make your appointment here </p4>
+  	<p3> Make your appointment here </p3><br>
+	<p4> Please fill out the blank bellow to make your appointment </p4><br>
+
 	Namee:  <input type="text" name="name"><br> 
 	Phone:  <input type="text" name="number"><br>
 	E-mail: <input type="text" name="email"><br> 
 	Doctor: <input type="text" name="doctor"><br>
+	Appointment date: <input type="text" name="doctor"><br>
+	Appointment time: <input type="text" name="doctor"><br>
+
 	<p5>Please <a href="http://www.facebook.com/" target="_blank">Click Here</a> to see doctor's availablity! </P5>
 	If you have any comment <textarea name="comment" rows="5" cols="40"></textarea> 
     <br><br> 
+      	<p4> To confirm your appointment please click submit button </p4><br>
+  	<p4> Thank you in advance for choosing Swedish Hospital </p4><br>
+
 <input type="submit"> 
 </form> 
 
