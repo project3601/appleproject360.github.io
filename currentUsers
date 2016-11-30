@@ -47,9 +47,9 @@
 	If you have any comment <textarea name="comment" rows="5" cols="40"></textarea> 
     <br><br> 
       	<p4> To confirm your appointment please click submit button </p4><br>
-  	<p4> Thank you in advance for choosing Swedish Hospital </p4><br>
+  	<p4> Thank you in advance for choosing Swedish Medical </p4><br>
 
-<input type="submit"> 
+<input type="submit" a href="http://www.facebook.com/" target="_blank"> 
 </form> 
 
 </div>   
