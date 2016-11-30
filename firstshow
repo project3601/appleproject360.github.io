@@ -1,1 +1,48 @@
 
+<html>
+      <title>Online Appointment</title>
+      <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+
+      </head>
+   
+   <style>
+     /* h2{background-color:#AB396F;border-radius:80px;color:green;}*/
+             
+      body {
+       
+          background-color: #cccccc;
+            }
+	  
+	   div.relative { 
+		position: relative; 
+  	left: 500px;  
+    down: 400px;
+	   }
+	</style>
+
+	<body>
+			<div class="relative">
+				<h4> Choose One </h4>
+	<button type="button">Make Appointment</button></a>
+	<a href="facebook.com" target="_top">
+
+  <button type="button">Cancel Appointment</button></a>
+	<a href="facebook.com" target="_top">
+
+
+	<a href="https://docs.google.com/forms/d/e/1FAIpQLSfIsxBmm6h5Kkd3aAcdZtFu7dBt7kw2g8YefRJ9uzKLv4B_Iw/viewform" target="_blank">New Account</a></p>
+				</form>
+
+
+			</div><!-- end home -->
+		
+		<map>
+		<area shape="rect" coords="0,0,82,126" href="facebook.com">
+		
+		</map>
+</body>
+</html>
