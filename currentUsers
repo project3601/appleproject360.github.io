@@ -40,14 +40,14 @@
 	Phone:  <input type="text" name="number"><br>
 	E-mail: <input type="text" name="email"><br> 
 	Doctor: <input type="text" name="doctor"><br>
-	Appointment date: <input type="text" name="doctor"><br>
-	Appointment time: <input type="text" name="doctor"><br>
+	Appointment date: <input type="text" name="date"><br>
+	Appointment time: <input type="text" name="time"><br>
 
 	<p5>Please <a href="http://www.facebook.com/" target="_blank">Click Here</a> to see doctor's availablity! </P5><br>
 	If you have any comment <textarea name="comment" rows="5" cols="40"></textarea> 
     <br><br> 
       	<p4> To confirm your appointment please click submit button </p4><br>
-  	<p4> Thank you in advance for choosing Swedish Medical </p4><br>
+  	<p4> Thank you in advance for choosing Swedish Medical Center </p4><br>
 
 <input type="submit" a href="http://www.facebook.com/" target="_blank"> 
 </form> 
