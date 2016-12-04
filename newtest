@@ -8,13 +8,13 @@ function postContactToGoogle() {
 var name=$('#name').val();
 var email=$('#email').val();
 var SSN=$('#SSN').val();
-var Doctor name=$('#Doctor name').val();
-var Appointment date=$('#Appointment date').val();
-var Appointment time=$('#Appointment time').val();
+var Doctorname=$('#Doctorname').val();
+var Appointmentdate=$('#Appointmentdate').val();
+var Appointmenttime=$('#Appointmenttime').val();
 var comment=$('#comment').val();
 
 $.ajax({
-url:"https://docs.google.com/forms/d/e/1FAIpQLSc8WLdl-HJTKXB9ot5t83VAtKrK_F9Qdkr7zlDI59j5gF1ZYQ/formResponse",data:{"entry_1333551639":name,"entry_293407376":email,"entry_1423079442":SSN,"entry_369330573":Doctor name, "entry_856556873":Appointment date, "entry_688389569":Appointment time, "entry_1292371793":comment,},type:"POST",dataType:"xml",statusCode: {0:function() { window.location.replace("facebook.com");},200:function(){window.location.replace("facebook.com");}}
+url:"https://docs.google.com/forms/d/e/1FAIpQLSc8WLdl-HJTKXB9ot5t83VAtKrK_F9Qdkr7zlDI59j5gF1ZYQ/formResponse",data:{"entry_1333551639":name,"entry_293407376":email,"entry_1423079442":SSN,"entry_369330573":Doctorname, "entry_856556873":Appointmentdate, "entry_688389569":Appointmenttime, "entry_1292371793":comment,},type:"POST",dataType:"xml",statusCode: {0:function() { window.location.replace("facebook.com");},200:function(){window.location.replace("facebook.com");}}
 });
 }
 </script>
@@ -55,15 +55,15 @@ SSN:<br/>
 <input type="text" name="SSN" id="SSN" placeholder="SSN" /><br/>
 
 Doctor name:<br/>
-<input type="text" name="Doctor name" id="Doctor name" placeholder="Doctor name" /><br/>
+<input type="text" name="Doctorname" id="Doctorname" placeholder="Doctorname" /><br/>
 
 Appointment date:<br/>
-<input type="text" name="Appointment date" id="Appointment date" placeholder="Appointment date" /><br/>
+<input type="text" name="Appointmentdate" id="Appointmentdate" placeholder="Appointmentdate" /><br/>
 
 Appointment time:<br/>
-<input type="text" name="Appointment time" id="Appointment time" placeholder="Appointment time" /><br/>
+<input type="text" name="Appointment time" id="Appointmenttime" placeholder="Appointmenttime" /><br/>
 
-Comments:<br/>
+Comment:<br/>
 <input type="text" name="comment" id="comment" placeholder="comment" /><br/>
 
 <center>
