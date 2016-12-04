@@ -5,11 +5,11 @@
 </script>
 <script>
 function postContactToGoogle() {
-var fullname=$('#fullname').val();
-var mobilenumber=$('#mobilenumber').val();
+var name=$('#name').val();
+var email=$('#email').val();
 var yourquery=$('#yourquery').val();
 $.ajax({
-url:"",data:{"entry_":fullname,"entry_":mobilenumber,"entry_":yourquery},type:"POST",dataType:"xml",statusCode: {0:function() { window.location.replace("thankyou.html");},200:function(){window.location.replace("thankyou.html");}}
+url:"https://docs.google.com/forms/d/e/1FAIpQLSc8WLdl-HJTKXB9ot5t83VAtKrK_F9Qdkr7zlDI59j5gF1ZYQ/formResponse",data:{"entry_i.desc.1882155613":name,"entry_i.desc.1415752873":email,"entry_":yourquery},type:"POST",dataType:"xml",statusCode: {0:function() { window.location.replace("google.com");},200:function(){window.location.replace("google.com");}}
 });
 }
 </script>
@@ -40,11 +40,11 @@ border-radius:3px 3px 3px 3px;
 <tr><td>
 <form id="formRequest">
 
-FULL NAME:<br/>
-<input type="text" name="fullname" id="fullname" placeholder="Full Name" /><br/>
+Name:<br/>
+<input type="text" name="name" id="name" placeholder="Name" /><br/>
 
-MOBILE NUMBER:<br/>
-<input type="text" name="mobilenumber" id="mobilenumber" maxlength="10" placeholder="10 digit mobile number" /><br/>
+Email:<br/>
+<input type="text" name="email" id="email" maxlength="10" placeholder="email" /><br/>
 
 
 WRITE SOMETHING ABOUT YOUR QUERY:<br/>
