@@ -40,11 +40,11 @@ border-radius:3px 3px 3px 3px;
 <tr><td>
 <form id="formRequest">
 
-Names:<br/>
+Name:<br/>
 <input type="text" name="name" id="name" placeholder="Name" /><br/>
 
 Email:<br/>
-<input type="text" name="email" id="email" maxlength="10" placeholder="email" /><br/>
+<input type="text" name="email" id="email" maxlength="30" placeholder="email" /><br/>
 
 
 WRITE SOMETHING ABOUT YOUR QUERY:<br/>
