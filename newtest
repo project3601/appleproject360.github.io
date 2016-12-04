@@ -9,7 +9,7 @@ var name=$('#name').val();
 var email=$('#email').val();
 var yourquery=$('#yourquery').val();
 $.ajax({
-url:"https://docs.google.com/forms/d/e/1FAIpQLSc8WLdl-HJTKXB9ot5t83VAtKrK_F9Qdkr7zlDI59j5gF1ZYQ/formResponse",data:{"entry_i.desc.1882155613":name,"entry_i.desc.1415752873":email,"entry_":yourquery},type:"POST",dataType:"xml",statusCode: {0:function() { window.location.replace("google.com");},200:function(){window.location.replace("google.com");}}
+url:"https://docs.google.com/forms/d/e/1FAIpQLSc8WLdl-HJTKXB9ot5t83VAtKrK_F9Qdkr7zlDI59j5gF1ZYQ/formResponse",data:{"entry_1333551639":name,"entry_293407376":email,"entry_":yourquery},type:"POST",dataType:"xml",statusCode: {0:function() { window.location.replace("google.com");},200:function(){window.location.replace("google.com");}}
 });
 }
 </script>
@@ -40,7 +40,7 @@ border-radius:3px 3px 3px 3px;
 <tr><td>
 <form id="formRequest">
 
-Name:<br/>
+Names:<br/>
 <input type="text" name="name" id="name" placeholder="Name" /><br/>
 
 Email:<br/>
