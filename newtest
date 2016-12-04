@@ -7,9 +7,14 @@
 function postContactToGoogle() {
 var name=$('#name').val();
 var email=$('#email').val();
-var yourquery=$('#yourquery').val();
+var SSN=$('#SSN').val();
+var Doctor name=$('#Doctor name').val();
+var Appointment date=$('#Appointment date').val();
+var Appointment time=$('#Appointment time').val();
+var comment=$('#comment').val();
+
 $.ajax({
-url:"https://docs.google.com/forms/d/e/1FAIpQLSc8WLdl-HJTKXB9ot5t83VAtKrK_F9Qdkr7zlDI59j5gF1ZYQ/formResponse",data:{"entry_1333551639":name,"entry_293407376":email,"entry_":yourquery},type:"POST",dataType:"xml",statusCode: {0:function() { window.location.replace("google.com");},200:function(){window.location.replace("google.com");}}
+url:"https://docs.google.com/forms/d/e/1FAIpQLSc8WLdl-HJTKXB9ot5t83VAtKrK_F9Qdkr7zlDI59j5gF1ZYQ/formResponse",data:{"entry_1333551639":name,"entry_293407376":email,"entry_1423079442":SSN,"entry_369330573":Doctor name, "entry_856556873":Appointment date, "entry_688389569":Appointment time, "entry_1292371793":comment,},type:"POST",dataType:"xml",statusCode: {0:function() { window.location.replace("google.com");},200:function(){window.location.replace("google.com");}}
 });
 }
 </script>
@@ -46,9 +51,20 @@ Name:<br/>
 Email:<br/>
 <input type="text" name="email" id="email" maxlength="30" placeholder="email" /><br/>
 
+SSN:<br/>
+<input type="text" name="SSN" id="SSN" placeholder="SSN" /><br/>
 
-WRITE SOMETHING ABOUT YOUR QUERY:<br/>
-<textarea name="yourquery" id="yourquery" form="formRequest" rows="4" cols="40" placeholder="Write your query here..."></textarea><br/><br/>
+Doctor name:<br/>
+<input type="text" name="doctor name" id="doctor name" placeholder="doctor name" /><br/>
+
+Appointment date:<br/>
+<input type="text" name="Appointment date" id="Appointment date" placeholder="Appointment date" /><br/>
+
+Appointment time:<br/>
+<input type="text" name="Appointment time" id="Appointment time" placeholder="Appointment time" /><br/>
+
+Comment:<br/>
+<input type="text" name="Comment" id="Comment" placeholder="Comment" /><br/>
 
 <center>
 <input type="button" name="Submit" id="Submit" onclick="postContactToGoogle()" value="Submit"/>
