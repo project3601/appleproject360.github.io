@@ -54,7 +54,7 @@ Email:<br/>
 SSN:<br/>
 <input type="text" name="SSN" id="SSN" placeholder="SSN" /><br/>
 
-<p5>Pleaseee <a href="http://www.fablabtacoma.com/Calendar" target="_blank">Click Here</a> to see doctor's availablity! </P5><br/>
+<p5>Please <a href="http://www.fablabtacoma.com/Calendar" target="_blank">Click Here</a> to see doctor's availablity! </P5><br/>
 <br/>
 Doctor name:<br/>
 <input type="text" name="Doctorname" id="Doctorname" placeholder="Doctorname" /><br/>
