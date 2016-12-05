@@ -40,7 +40,6 @@ border-radius:3px 3px 3px 3px;
 <tr><td>
 <form id="formRequest">
 
-<center>
 
 NAME:
 <input type="text" name="Name" id="Name" placeholder="Name" />
@@ -51,7 +50,7 @@ SSN:<br/>
 Email:<br/>
 <input type="text" name="Email" id="Email" maxlength="30" placeholder="Email" /><br/>
 
-
+<center>
 <input type="button" name="Submit" id="Submit" onclick="postContactToGoogle()" value="Submit"/>
 <input type="reset" value="Reset"/>
 </center>
