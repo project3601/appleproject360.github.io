@@ -61,9 +61,9 @@ Appointment date:<br/>
 <input type="text" name="Appointmentdate" id="Appointmentdate" placeholder="Appointmentdate" /><br/>
 
 Appointment time:<br/>
-<input type="text" name="Appointment time" id="Appointmenttime" placeholder="Appointmenttime" /><br/>
+<input type="text" name="Appointmenttime" id="Appointmenttime" placeholder="Appointmenttime" /><br/>
 
-Comment:<br/>
+Comments:<br/>
 <input type="text" name="comment" id="comment" placeholder="comment" /><br/>
 
 <center>
