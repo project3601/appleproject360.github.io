@@ -2,6 +2,8 @@
 <html>
       <title>Online Appointment</title>
       <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -46,7 +48,7 @@ border-radius:10px 10px 10px 10px;
   
   	<a href="https://swedish.bhawk.com/index.asp" target="_top">
 
-    <button type="button">Make Payment</button></a>
+    <button type="button">Make Paymentss</button></a>
 
 
 
