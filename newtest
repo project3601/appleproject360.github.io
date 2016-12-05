@@ -54,7 +54,7 @@ Email:<br/>
 SSN:<br/>
 <input type="text" name="SSN" id="SSN" placeholder="SSN" /><br/>
 
-<p5>Please <a href="https://calendar.google.com/calendar/render#main_7" target="_blank">Click Here</a> to see doctor's availablity! </P5><br/>
+<p5>Pleaseee <a href="https://canvas.uw.edu/calendar#view_name=month&view_start=2016-12-05" target="_blank">Click Here</a> to see doctor's availablity! </P5><br/>
 <br/>
 Doctor name:<br/>
 <input type="text" name="Doctorname" id="Doctorname" placeholder="Doctorname" /><br/>
