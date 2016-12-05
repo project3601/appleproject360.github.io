@@ -15,7 +15,7 @@ url:"https://docs.google.com/forms/d/e/1FAIpQLSfhaGcweShJOE-dlkSY07YjLJo8zSsqmrH
 </script>
 <style>
 .FormRequest {
-background: lightyellow;
+background: lightred;
 width:400px;
 height:250px;
 border:1px solid blue;
@@ -42,12 +42,12 @@ border-radius:3px 3px 3px 3px;
 
 
 NAME:
-<input type="text" name="Name" id="Name" placeholder="Name" />
+<input type="text" name="Name" id="Name" placeholder="Name" /><br/>
 
-SSN:<br/>
+SSN:
 <input type="text" name="SSN" id="SSN" placeholder="FSSN" /><br/>
 
-Email:<br/>
+Email:
 <input type="text" name="Email" id="Email" maxlength="30" placeholder="Email" /><br/>
 
 <center>
