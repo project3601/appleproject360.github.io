@@ -11,6 +11,11 @@ $(document).ready(function(){
 </script>
  
 <style> 
+body {
+       
+          background-color: #e5eecc;
+            }
+
 #panel, #flip {
     padding: 5px;
     text-align: center;
@@ -39,7 +44,7 @@ $(document).ready(function(){
 <div id="flip">Click here for feedback and comment</div>
 <div id="panel">Hello world!
  <form action="https://formspree.io/ymhm444@gmail.com" method="post"> 
- Namee: <input type="text" name="name"><br> 
+ Name: <input type="text" name="name"><br> 
  E-mail: <input type="text" name="email"><br> 
 Comment: <textarea name="comment" rows="5" cols="40"></textarea> 
 <br><br> 
