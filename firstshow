@@ -21,7 +21,7 @@
 	   div.relative { 
 		position: relative; 
   	left: 500px;  
-    down: 400px;
+    bottom: 400px;
 	   }
 
 FormRequest {
@@ -34,22 +34,20 @@ border-radius:10px 10px 10px 10px;
 	</style>
 
 	<body>
-	<div class="FormRequest" align="center">
+	<div class="relative">
 
-
+<center>
 				<h4> Please Select One </h4>
 	<a href="http://htmlpreview.github.io/?https://github.com/project3601/appleproject360.github.io/blob/master/newtest" target="_top">
-
 	<button type="button">Make Appointment</button></a>
-	<a href="http://htmlpreview.github.io/?https://github.com/project3601/appleproject360.github.io/blob/master/newtest" target="_top">
-
-  <button type="button">Cancel Appointment</button></a> </br>
+	
+	<a href="http://htmlpreview.github.io/?https://github.com/project3601/appleproject360.github.io/blob/master/cancelappointment" target="_top">
+	<button type="button">Cancel Appointment</button></a> </br>
   
   	<a href="https://swedish.bhawk.com/index.asp" target="_top">
+   	<button type="button">Make Paymentss</button></a>
 
-    <button type="button">Make Paymentss</button></a>
-
-
+</center>
 
 			</div><!-- end home -->
 		
