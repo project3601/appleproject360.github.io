@@ -21,7 +21,6 @@
 	   div.relative { 
 		position: relative; 
   	left: 500px;  
-    bottom: 400px;
 	   }
 
 FormRequest {
