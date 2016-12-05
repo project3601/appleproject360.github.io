@@ -5,12 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-FormRequest {
-background: lightyellow;
-width:400px;
-height:250px;
-border:1px solid blue;
-border-radius:10px 10px 10px 10px;
+
 
       </head>
    
@@ -27,6 +22,14 @@ border-radius:10px 10px 10px 10px;
   	left: 500px;  
     down: 400px;
 	   }
+
+FormRequest {
+background: lightyellow;
+width:400px;
+height:250px;
+border:1px solid blue;
+border-radius:10px 10px 10px 10px;
+}
 	</style>
 
 	<body>
@@ -45,7 +48,7 @@ border-radius:10px 10px 10px 10px;
   
   	<a href="https://swedish.bhawk.com/index.asp" target="_top">
 
-    <button type="button">Make Payment</button></a>
+    <button type="button">Make Payments</button></a>
 
 
 </td></td>
