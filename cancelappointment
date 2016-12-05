@@ -15,7 +15,7 @@ url:"https://docs.google.com/forms/d/e/1FAIpQLSfhaGcweShJOE-dlkSY07YjLJo8zSsqmrH
 </script>
 <style>
 .FormRequest {
-background: F8A492;
+background: lightyellow;
 width:400px;
 height:250px;
 border:1px solid blue;
