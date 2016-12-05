@@ -14,7 +14,7 @@ var Appointmenttime=$('#Appointmenttime').val();
 var comment=$('#comment').val();
 
 $.ajax({
-url:"https://docs.google.com/forms/d/e/1FAIpQLSc8WLdl-HJTKXB9ot5t83VAtKrK_F9Qdkr7zlDI59j5gF1ZYQ/formResponse",data:{"entry_1333551639":name,"entry_293407376":email,"entry_1423079442":SSN,"entry_369330573":Doctorname, "entry_856556873":Appointmentdate, "entry_688389569":Appointmenttime, "entry_1292371793":comment,},type:"POST",dataType:"xml",statusCode: {0:function() { window.location.replace("facebook.com");},200:function(){window.location.replace("facebook.com");}}
+url:"https://docs.google.com/forms/d/e/1FAIpQLSc8WLdl-HJTKXB9ot5t83VAtKrK_F9Qdkr7zlDI59j5gF1ZYQ/formResponse",data:{"entry_1333551639":name,"entry_293407376":email,"entry_1423079442":SSN,"entry_369330573":Doctorname,"entry_856556873":Appointmentdate,"entry_688389569":Appointmenttime,"entry_1292371793":comment,},type:"POST",dataType:"xml",statusCode: {0:function() { window.location.replace("facebook.com");},200:function(){window.location.replace("facebook.com");}}
 });
 }
 </script>
@@ -63,7 +63,7 @@ Appointment date:<br/>
 Appointment time:<br/>
 <input type="text" name="Appointment time" id="Appointmenttime" placeholder="Appointmenttime" /><br/>
 
-Comment:<br/>
+Comments:<br/>
 <input type="text" name="comment" id="comment" placeholder="comment" /><br/>
 
 <center>
