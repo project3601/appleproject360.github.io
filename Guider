@@ -39,10 +39,10 @@ body {
 	<button type="button">Cancel Appointment</button></a> 
   
   	<a href="https://swedish.bhawk.com/index.asp" target="_top">
-   	<button type="button">Make Paymentss</button></a>
+   	<button type="button">Make Payments</button></a>
 </center>
 <div id="flip">Click here for feedback and comment</div>
-<div id="panel">Hello world!
+<div id="panel">Submit this form
  <form action="https://formspree.io/ymhm444@gmail.com" method="post"> 
  Name: <input type="text" name="name"><br> 
  E-mail: <input type="text" name="email"><br> 
